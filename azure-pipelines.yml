@@ -58,5 +58,5 @@ steps:
   inputs:
    command: 'test'
    arguments: '--no-build --configuration $(buildConfiguration)'
-  publishTestResults: true
-  projects: '**/*.Tests.csproj'
+   publishTestResults: true
+   projects: '**/*.Tests.csproj'
